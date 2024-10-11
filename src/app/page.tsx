@@ -66,8 +66,8 @@ export default function Home() {
                 }
                 key={index}
                 onClick={() => {
-                  gameState?.isRunning && clickHoleHandler(index);
-                  gameState.moleVisible && clickHoleHandler(index);
+                  gameState?.isRunning && clickHoleHandler(index); // eslint-disable-line
+                  gameState.moleVisible && clickHoleHandler(index); // eslint-disable-line
                 }}
               />
             ))}
